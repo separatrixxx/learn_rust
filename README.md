@@ -1,3 +1,2 @@
-# learn_rust
-💀 Repository with small projects on Rust
-ht
+# Learning Rust is fun (help me)
+💀💀💀💀💀
