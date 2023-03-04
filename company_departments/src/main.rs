@@ -49,8 +49,12 @@ fn main() {
             }
         } else {
             println!("\n");
-            for (dep, names) in &company {
-                println!("{dep}: {names}");
+            if company.is_empty() {
+                println!("В компании ещё нет ни одного сотрудника!");
+            } else {
+                for (dep, names) in &company {
+                    println!("{dep}: {names}");
+                }
             }
             println!("\n");
         }
